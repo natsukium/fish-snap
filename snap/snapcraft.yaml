@@ -8,8 +8,8 @@ description: |
   highlighting, autosuggest-as-you-type, and fancy tab completions that
   just work, with no configuration required.
 
-grade: devel
-confinement: devmode
+grade: stable
+confinement: classic
 
 apps:
   fish3:
