@@ -11,6 +11,10 @@ description: |
 grade: devel
 confinement: devmode
 
+apps:
+  fish:
+    command: bin/fish
+
 parts:
   fish:
     source: https://github.com/fish-shell/fish-shell/releases/download/3.0.2/fish-3.0.2.tar.gz
